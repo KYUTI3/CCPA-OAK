@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Footer from '../../components/Footer';
 
-export function Home() {
+export default function Home() {
   return (
 
   <main className="">
