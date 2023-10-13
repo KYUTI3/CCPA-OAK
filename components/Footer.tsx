@@ -7,14 +7,14 @@ import heart from '../assets/heart.svg'
 
 
 
-const Footer = () => {
+const Footer:React.FC = () => {
 return(
-    <div className="flex flex-col justify-center fixed bottom-0 left-0 w-full bg-green-900 text-yellow-600 text-xl font-mono gap-y-5 text-center items-center pt-4 pb-4"> 
+    <div className="flex flex-col justify-center fixed bottom-0 w-full bg-green-800 text-yellow-600 text-xl font-sans gap-y-5 text-center items-center pt-3 pb-4"> 
         <div className="outline-2 outline-amber-400 self-center translate-y-1">
           <Image
           src="/banners/ccpa-banner.jpeg"
-          width={85}
-          height={85}
+          width={90}
+          height={90}
           alt="CCPA Banner"/> 
         </div>
          <div className="font-extrabold"> 
