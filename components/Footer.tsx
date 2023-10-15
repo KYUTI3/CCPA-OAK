@@ -5,12 +5,10 @@ import facebook from '../assets/facebook.svg'
 import instagram from '../assets/instagram.svg'
 import heart from '../assets/heart.svg'
 
-
-
 const Footer:React.FC = () => {
 return(
     <div className="flex flex-col justify-center fixed bottom-0 w-full bg-green-800 text-yellow-600 text-xl font-sans gap-y-5 text-center items-center pt-3 pb-4"> 
-        <div className="outline-2 outline-amber-400 self-center translate-y-1">
+        <div className="outline-2 outline-amber-500 self-center translate-y-1">
           <Image
           src="/banners/ccpa-banner.jpeg"
           width={90}
@@ -35,17 +33,17 @@ return(
         </div> 
        </div>
          <div className="flex gap-x-2"> 
-            <div>
+            <div className="hover:scale-110">
             <a href='https://www.facebook.com/ccpa.lions'>
              <Image src={facebook} alt='Facebook'width={45} height={45} />
             </a>
             </div>
-             <div>
+             <div className="hover:scale-110">
              <a href='https://www.instagram.com/ccpa_lions/'>
              <Image src={instagram} alt='Instagram'width={45} height={45}/>
              </a>
             </div>
-            <div>
+            <div className="hover:scale-110">
              <a href='https://www.donorschoose.org/schools/california/oakland-unified-school-district/coliseum-college-prep-academy/27025'>
              <Image src={heart} alt='Donate!'width={45} height={45}/>
             </a>
@@ -55,13 +53,6 @@ return(
             </div> 
         </div>
             
-        
-    
-             
-        
-
-
-
  )
 } 
 

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -16,6 +17,7 @@
     "css.gg": "^2.1.1",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "firebase": "^10.5.0",
     "next": "^13.5.3",
     "postcss": "8.4.29",
     "react": "^18.2.0",
